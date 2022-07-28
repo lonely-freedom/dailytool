@@ -1,0 +1,56 @@
+*{
+  font-family:'PingFang SC','PingFang TC','Microsoft YaHei',"STHeiti",arial,helvetica,sans-serif;
+}
+.clear {
+  clear: both;
+}
+li {
+  list-style-type: none;
+  vertical-align: -webkit-baseline-middle;
+}
+#app {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin-top: 20px;
+}
+#app .nav {
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+}
+#app .nav li {
+  float: left;
+  margin: 5px;
+}
+#app .nav li a {
+  color: #fff;
+  background: #009143;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px solid #36af53;
+}
+#app .nav li a:hover {
+  background: #36af53;
+}
+
+.user {
+  text-align:center;
+  margin-left:100px;
+  display: inline-block;
+}
+.user li {
+  float: left;
+  margin: 5px;
+}
+.user li span {    
+  color: #ffffff;
+  background-color: #7b8a97;
+  border: 1px solid #7b8a97;
+  text-decoration: none;
+  padding: 2px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
