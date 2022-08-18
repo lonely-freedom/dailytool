@@ -12,6 +12,9 @@
           <li>
             <router-link to="/Month">Statistics</router-link>
           </li>
+          <li>
+            <router-link to="/Contact">DLLContact</router-link>
+          </li>
         </template>
         <template v-else>
           <li>

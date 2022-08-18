@@ -5,7 +5,8 @@ import Project from '../components/Daily/Nav/Project'
 import Month from '../components/Daily/Nav/Month'
 import Register from '../components/Register'
 import Login from '../components/Login'
-import Home from '../components/Home' 
+import Home from '../components/Home'
+import Contact from '../components/DLL/Nav/Contact'
 
 Vue.use(VueRouter);
 export const dailyRouterMap=[
@@ -31,6 +32,10 @@ export const dailyRouterMap=[
   {
     path: "/Register",
     component: Register,
+  },
+  {
+    path: "/Contact",
+    component: Contact,
   }
 ]
 
